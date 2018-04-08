@@ -400,7 +400,7 @@
         "https://www.google.ws/*"
       ],
       "css": [
-        "style.css"
+        "static-style.css"
       ],
       "run_at": "document_start"
     }
