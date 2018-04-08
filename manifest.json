@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Google Static",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Google Search interface always visible on screen.",
   "icons": {
-    "48": "icon-48.png",
-    "90": "icon-90.png"
+    "48": "icon.svg",
+    "90": "icon.svg"
   },
   "content_scripts": [
     {
