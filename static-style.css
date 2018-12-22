@@ -88,7 +88,7 @@
 
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel,
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem > a {
+#hdtb-msb .hdtb-mitem:not(#ab_options) > a {
     margin: 0 !important;
     padding: 1.5em !important;
     border: none !important;
@@ -333,7 +333,7 @@
     padding: 17px 34px 0 !important;
 }
 
-#gb {
+:not(#viewport) > #searchform > #gb {
     top: 11px !important;
 }
 
