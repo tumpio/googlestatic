@@ -50,8 +50,9 @@
 #hdtbSum {
     position: fixed !important;
     margin-top: 1px !important;
-    z-index: 600 !important;
+    z-index: 3 !important;
     height: 100% !important;
+    min-width: 11em !important;
     top: 76px;
     border-right: 1px solid #ebebeb;
     background: white !important;
@@ -65,8 +66,12 @@
     min-width: 0 !important;
 }
 
+#hdtb-msb-vis {
+    margin-left: 0 !important;
+}
+
 #hdtb-msb > div:first-child {
-    min-width: 130px !important;
+    min-width: 0px !important;
     overflow: hidden !important;
     display: block !important;
 }
@@ -82,7 +87,7 @@
 #hdtb-msb-vis g-popup a {
     display: block !important;
     width: 100% !important;
-    padding: 1.5em !important;
+    padding: 1em !important;
     margin: 0 !important;
 }
 
@@ -195,8 +200,8 @@
  */
 #abar_button_opt {
     position: fixed !important;
-    top: 42px !important;
-    right: 14px !important;
+    top: 36px !important;
+    right: 18px !important;
     padding-left: 8em !important;
     padding-right: 1em !important;
 }
