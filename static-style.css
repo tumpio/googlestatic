@@ -17,6 +17,7 @@
 #appbar {
     z-index: 1 !important;
     position: relative !important;
+    margin-top: 2em !important;
 }
 
 #ires {
@@ -32,7 +33,7 @@
 #top_nav {
     position: fixed;
     z-index: 4;
-    top: 3.8em;
+    top: 50px;
     width: 100%;
 }
 
@@ -171,7 +172,6 @@
     top: 0 !important;
     display: block !important;
     padding: 0 !important;
-    z-index: 3 !important;
 }
 
 #hdtb {
@@ -280,6 +280,11 @@
 .Tg7LZd .gBCQ5d {
     height: 20px !important;
     width: 20px !important;
+}
+
+.Tg7LZd .rINcab {
+    height:20px !important;
+    width:20px !important;
 }
 
 .Tg7LZd svg {
