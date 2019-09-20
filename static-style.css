@@ -9,6 +9,7 @@
 .sfbgx {
     position: fixed !important;
     height: 76px !important;
+    width: 100% !important;
     background: white;
     z-index: 3;
     border-bottom: 1px solid #ebebeb !important;
@@ -200,7 +201,7 @@
  */
 #abar_button_opt {
     position: fixed !important;
-    top: 36px !important;
+    top: 40px !important;
     right: 18px !important;
     padding-left: 8em !important;
     padding-right: 1em !important;
