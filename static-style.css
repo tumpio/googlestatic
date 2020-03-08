@@ -8,6 +8,7 @@
 
 .sfbgx {
     position: fixed !important;
+    top: 0 !important;
     height: 76px !important;
     width: 100% !important;
     background: white;
@@ -16,9 +17,12 @@
 }
 
 #appbar {
-    z-index: 1 !important;
     position: relative !important;
     margin-top: 2em !important;
+}
+
+#appbar.hdtb-ab-o {
+    margin-top: 0 !important;
 }
 
 #ires {
@@ -32,9 +36,8 @@
 }
 
 #top_nav {
-    position: fixed;
-    z-index: 4;
-    top: 50px;
+    position: absolute !important;
+    top: 0 !important;
     width: 100%;
 }
 
@@ -46,10 +49,17 @@
     background: white !important;
 }
 
+#promos {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    z-index: 200 !important;
+}
+
 /* Top navigation with Search links (Web, Images, Maps..)
  *   Place as a side panel to the left.
  */
-#hdtbSum {
+#hdtb-msb {
     position: fixed !important;
     margin-top: 1px !important;
     z-index: 3 !important;
@@ -62,10 +72,6 @@
 
 #rcnt {
     margin-left: 6px !important;
-}
-
-#hdtb-msb {
-    min-width: 0 !important;
 }
 
 #hdtb-msb-vis {
@@ -85,7 +91,7 @@
     padding-top: 0 !important;
 }
 
-#hdtb-msb-vis .hdtb-mitem:not(#ab_options) > a,
+#hdtb-msb-vis .hdtb-mitem > a:not(#abar_button_opt),
 #hdtb-msb-vis g-popup a {
     display: block !important;
     width: 100% !important;
@@ -95,7 +101,7 @@
 
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel,
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel-pre,
-#hdtb-msb .hdtb-mitem:not(#ab_options) > a {
+#hdtb-msb .hdtb-mitem > a:not(#abar_button_opt) {
     margin: 0 !important;
     padding: 1.5em !important;
     border: none !important;
@@ -165,14 +171,20 @@
     z-index: 200 !important;
 }
 
+#lb > .il8Sef {
+    margin-left: 10px !important;
+}
+
 /* Search option menus (Country, Language, Date,..)
  *   Placed under search bar.
  */
 #hdtbMenus {
-    position: relative !important;
-    top: 0 !important;
+    position: fixed !important;
+    top: 48px !important;
     display: block !important;
     padding: 0 !important;
+    z-index: 4 !important;
+    width: auto !important;
 }
 
 #hdtb {
@@ -201,29 +213,37 @@
  */
 #abar_button_opt {
     position: fixed !important;
-    top: 40px !important;
-    right: 18px !important;
-    padding-left: 8em !important;
-    padding-right: 1em !important;
+    top: 52px !important;
+    right: 30px !important;
+    padding: 0 !important;
+    margin-left: 8em !important;
 }
 
-#ab_options {
+#lb > div[class=cF4V5c] {
     position: fixed !important;
-    top: 100px !important;
+    top: 80px !important;
     right: 0 !important;
     margin-right: 10px !important;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    left: unset !important;
 }
 
 #lb {
     position: fixed !important;
 }
 
-/* SafeSearch button
- *   Hide the button. It can be configured from Google's search settings.
+/* SafeSearch text
+ *   Display under settings button.
  */
-#ab_ctls {
-    display: none !important;
+#hdtbSum {
+    z-index: unset !important;
+}
+
+#hdtb-s > .pdswFd {
+    position: absolute !important;
+    top: 65px !important;
+    right: 0 !important;
+    margin-right: 30px !important;
+    z-index: 2 !important;
 }
 
 /*
@@ -265,6 +285,10 @@
     padding: 0 32px !important;
 }
 
+.doodle {
+    margin-top: -4px !important;
+}
+
 .gLFyf {
     margin-top: -34px !important;
 }
@@ -276,6 +300,11 @@
 .Tg7LZd {
     height: 32px !important;
     line-height: 32px
+}
+
+.Tg7LZd .FAuhyb {
+    height: 20px !important;
+    width: 20px !important;
 }
 
 .Tg7LZd .gBCQ5d {
@@ -298,8 +327,8 @@
     border-bottom-right-radius: 16px !important;
 }
 
-.sbtc {
-    padding: 0 !important;
+.iblpc {
+    margin-top: 0 !important;
 }
 
 .sbl1 {
@@ -345,7 +374,7 @@
 }
 
 :not(#viewport) > #searchform > #gb {
-    top: 11px !important;
+    top: 2px !important;
 }
 
 li.sbsb_c .sbse {
