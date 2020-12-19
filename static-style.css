@@ -6,19 +6,9 @@
     top: 0 !important;
 }
 
-.sfbgx {
-    position: fixed !important;
-    top: 0 !important;
-    height: 76px !important;
-    width: 100% !important;
-    background: white;
-    z-index: 3;
-    border-bottom: 1px solid #ebebeb !important;
-}
-
 #appbar {
     position: relative !important;
-    margin-top: 2em !important;
+    margin-top: 1em !important;
 }
 
 #appbar.hdtb-ab-o {
@@ -36,9 +26,18 @@
 }
 
 #top_nav {
-    position: absolute !important;
+    position: fixed !important;
     top: 0 !important;
     width: 100%;
+    height: 76px !important;
+    width: 100% !important;
+    background: white;
+    z-index: 3;
+    border-bottom: 1px solid #ebebeb !important;
+}
+
+.yg51vc {
+    height: auto !important;
 }
 
 .sfbg {
@@ -61,6 +60,7 @@
  */
 #hdtb-msb {
     position: fixed !important;
+    display: block !important;
     margin-top: 1px !important;
     z-index: 3 !important;
     height: 100% !important;
@@ -71,7 +71,26 @@
 }
 
 #rcnt {
-    margin-left: 6px !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+#bcenter {
+    margin-left: 142px !important;
+}
+
+.ynJMRd {
+    position: initial !important;
+    float: none !important;
+    width: auto !important;
+}
+
+#center_col {
+    margin-left: 36px !important;
+}
+
+#rhs {
+    margin-left: 750px !important;
 }
 
 #hdtb-msb-vis {
@@ -91,8 +110,8 @@
     padding-top: 0 !important;
 }
 
-#hdtb-msb-vis .hdtb-mitem > a:not(#abar_button_opt),
-#hdtb-msb-vis g-popup a {
+#hdtb-msb-vis .hdtb-mitem > a,
+.hdtb-mitem g-popup {
     display: block !important;
     width: 100% !important;
     padding: 1em !important;
@@ -101,7 +120,7 @@
 
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel,
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel-pre,
-#hdtb-msb .hdtb-mitem > a:not(#abar_button_opt) {
+#hdtb-msb-vis .hdtb-mitem > a {
     margin: 0 !important;
     padding: 1.5em !important;
     border: none !important;
@@ -149,14 +168,8 @@
     border-left-color: #EA4335 !important;
 }
 
-#hdtb-msb div:first-child g-popup > div {
-    display: block !important;
-    top: auto !important;
-    box-shadow: none !important;
-}
-
-#hdtb-msb div:first-child g-popup .hdtb-dd-b {
-    display: none !important;
+.hdtb-mitem g-popup .hdtb-dd-b {
+    padding-top: 0 !important;
 }
 
 #hdtb-msb div:first-child g-menu-item {
@@ -208,25 +221,6 @@
     height: 49px !important;
 }
 
-/* Settings button
- *   Placed under login button.
- */
-#abar_button_opt {
-    position: fixed !important;
-    top: 52px !important;
-    right: 30px !important;
-    padding: 0 !important;
-    margin-left: 8em !important;
-}
-
-#lb > div[class=cF4V5c] {
-    position: fixed !important;
-    top: 80px !important;
-    right: 0 !important;
-    margin-right: 10px !important;
-    left: unset !important;
-}
-
 #lb {
     position: fixed !important;
 }
@@ -240,7 +234,7 @@
 
 #hdtb-s > .pdswFd {
     position: absolute !important;
-    top: 65px !important;
+    top: 36px !important;
     right: 0 !important;
     margin-right: 30px !important;
     z-index: 2 !important;
@@ -404,4 +398,16 @@ li.sbsb_c .sbse {
 .sbico-c .sbico {
     height: 20px !important;
     width: 20px !important;
+}
+
+.lBbtTb {
+    width: 20px !important;
+}
+
+#gb {
+    top: 2px !important;
+}
+
+#searchform #logocont {
+    padding: 17px 34px 0;
 }
