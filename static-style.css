@@ -127,47 +127,6 @@
     border-left: 0px solid !important;
 }
 
-#hdtb-msb-vis .hdtb-mitem.hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem.hdtb-msel-pre a {
-    border-left-width: 3px !important;
-}
-
-#hdtb-msb-vis .hdtb-mitem:nth-child(1).hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem:nth-child(1).hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem:nth-child(1) > a {
-    border-left-color: #4285F4 !important;
-}
-
-#hdtb-msb-vis .hdtb-mitem:nth-child(2).hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem:nth-child(2).hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem:nth-child(2) > a {
-    border-left-color: #EA4335 !important;
-}
-
-#hdtb-msb-vis .hdtb-mitem:nth-child(3).hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem:nth-child(3).hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem:nth-child(3) > a {
-    border-left-color: #FBBC05 !important;
-}
-
-#hdtb-msb-vis .hdtb-mitem:nth-child(4).hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem:nth-child(4).hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem:nth-child(4) > a {
-    border-left-color: #4285F4 !important;
-}
-
-#hdtb-msb-vis .hdtb-mitem:nth-child(5).hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem:nth-child(5).hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem:nth-child(5) > a {
-    border-left-color: #34A853 !important;
-}
-
-#hdtb-msb-vis .hdtb-mitem:nth-child(6).hdtb-msel,
-#hdtb-msb-vis .hdtb-mitem:nth-child(6).hdtb-msel-pre,
-#hdtb-msb-vis .hdtb-mitem:nth-child(6) > a {
-    border-left-color: #EA4335 !important;
-}
-
 .hdtb-mitem g-popup .hdtb-dd-b {
     padding-top: 0 !important;
 }
@@ -240,18 +199,6 @@
     z-index: 2 !important;
 }
 
-/*
-    Image search margins
- */
-#main > #cnt > #rcnt {
-    margin-left: 132px !important;
-    margin-top: 36px !important;
-}
-
-#irc_bg {
-    left: 0 !important;
-}
-
 /**
    Force Collapsed search bar layout
  */
@@ -293,7 +240,7 @@
 
 .Tg7LZd {
     height: 32px !important;
-    line-height: 32px
+    line-height: 32px;
 }
 
 .Tg7LZd .FAuhyb {
@@ -307,8 +254,8 @@
 }
 
 .Tg7LZd .rINcab {
-    height:20px !important;
-    width:20px !important;
+    height: 20px !important;
+    width: 20px !important;
 }
 
 .Tg7LZd svg {
@@ -382,11 +329,11 @@ li.sbsb_c .sbse {
 }
 
 #gs_st0 {
-    line-height: 32px !important
+    line-height: 32px !important;
 }
 
 .sbdd_a {
-    top: 32px !important
+    top: 32px !important;
 }
 
 .gsri_a {
@@ -410,4 +357,17 @@ li.sbsb_c .sbse {
 
 #searchform #logocont {
     padding: 17px 34px 0;
+}
+
+#searchform {
+    margin-top: 0 !important;
+}
+
+.RNNXgb {
+    background: #fff !important;
+    height: 32px !important;
+    border-radius: 16px !important;
+    box-shadow: none !important;
+    border: 1px solid #dfe1e5 !important;
+    margin: 10px 0 0 !important;
 }
