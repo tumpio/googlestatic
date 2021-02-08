@@ -105,17 +105,18 @@
 
 .hdtb-mitem {
     display: block !important;
-    margin: 0 !important;
     height: auto !important;
-    padding-top: 0 !important;
 }
 
 #hdtb-msb-vis .hdtb-mitem > a,
 .hdtb-mitem g-popup {
     display: block !important;
     width: 100% !important;
-    padding: 1em !important;
     margin: 0 !important;
+}
+
+.hdtb-mitem.hdtb-msel {
+    border: none !important;
 }
 
 #hdtb-msb-vis .hdtb-mitem.hdtb-msel,
@@ -145,6 +146,10 @@
 
 #lb > .il8Sef {
     margin-left: 10px !important;
+}
+
+.MUFPAc {
+    margin-left: 0 !important;
 }
 
 /* Search option menus (Country, Language, Date,..)
