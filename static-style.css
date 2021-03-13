@@ -73,9 +73,6 @@
 #rcnt {
     display: flex !important;
     flex-direction: row !important;
-}
-
-#bcenter {
     margin-left: 142px !important;
 }
 
