@@ -114,6 +114,7 @@ li.sbsb_c .sbse {
     margin-top: -32px !important;
     line-height: 32px !important;
     height: 32px !important;
+    padding-bottom: 0 !important;
 }
 .YacQv {
     height: 32px !important;
@@ -177,6 +178,10 @@ li.sbsb_c .sbse {
     overflow: hidden !important;
     background: var(--gs-background) !important;
     box-shadow: var(--gs-box-shadow) !important;
+}
+
+.fLciMb {
+    margin-top: 6px !important;
 }
 
 /* Top search bar
@@ -255,6 +260,10 @@ li.sbsb_c .sbse {
     display: flex !important;
     flex-direction: row !important;
     margin-left: 142px !important;
+}
+
+#result-stats {
+    margin-left: 178px !important;
 }
 
 .ynJMRd {
